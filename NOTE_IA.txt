@@ -1,0 +1,17 @@
+NOTE EXPLICATIVE — UTILISATION DE L’INTELLIGENCE ARTIFICIELLE
+
+Dans le cadre de la réalisation de ce mini-site consacré à une course à pied, j’ai utilisé ChatGPT comme outil d’aide à la conception et à la rédaction.
+
+L’outil m’a aidé à :
+- structurer le site en cinq pages HTML distinctes ;
+- proposer une première version des textes de présentation, de description de l’événement, du programme et des informations pratiques ;
+- produire une feuille de style CSS commune et une mise en page responsive ;
+- créer des illustrations vectorielles originales intégrées au dossier images ;
+- préparer un exemple de formulaire HTML de préinscription.
+
+Modifications et vérifications manuelles à effectuer avant le rendu :
+- remplacer « Prénom Nom » par Pierre Lalouette et compléter la présentation personnelle, celle de la formation et celle de l'université ;
+- reformuler les textes pour qu’ils correspondent à mon expression personnelle ;
+- Ajouter des images personnalisées ;
+- vérifier les liens, l’affichage des pages et la navigation ;
+- ajuster les informations fictives de l’événement.

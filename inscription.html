@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Inscriptions — Les Foulées Solidaires</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">FS</span><span>Foulées <strong>Solidaires</strong></span></a><nav aria-label="Navigation principale"><a href="index.html">Présentation</a><a href="evenement.html">L'événement</a><a href="programme.html">Programme</a><a href="infos.html">Infos pratiques</a><a class="nav-cta active" href="inscription.html">S'inscrire</a></nav></header>
+  <main>
+    <section class="page-hero"><p class="eyebrow">REJOIGNEZ LE MOUVEMENT</p><h1>À vous de jouer<br><span>et de courir.</span></h1><p>Un formulaire de préinscription fictif pour illustrer le parcours participant.</p></section>
+    <section class="section form-section">
+      <div class="form-aside"><p class="eyebrow">VOTRE PARTICIPATION</p><h2>Chaque foulée compte.</h2><p>Choisissez votre distance et renseignez vos coordonnées dans le formulaire ci-contre.</p><div class="form-highlight"><strong>5 km</strong><span>Découverte</span></div><div class="form-highlight"><strong>10 km</strong><span>Challenge</span></div></div>
+      <form class="registration-form" action="#" method="get">
+        <h2>Formulaire de préinscription</h2>
+        <p class="small-note">Les champs marqués d'un * sont obligatoires. Aucune donnée n'est envoyée à un serveur.</p>
+        <label for="fullname">Nom et prénom *</label><input id="fullname" name="fullname" type="text" placeholder="Ex. Camille Martin" required>
+        <label for="email">Adresse e-mail *</label><input id="email" name="email" type="email" placeholder="vous@exemple.fr" required>
+        <label for="age">Âge *</label><input id="age" name="age" type="number" min="10" max="110" placeholder="Votre âge" required>
+        <label for="distance">Distance choisie *</label><select id="distance" name="distance" required><option value="">Sélectionnez une distance</option><option value="5 km">5 km — Découverte</option><option value="10 km">10 km — Challenge</option></select>
+        <label for="message">Message ou besoin particulier (facultatif)</label><textarea id="message" name="message" rows="4" placeholder="Précision utile pour l'organisation..."></textarea>
+        <label class="consent"><input type="checkbox" required> Je confirme l'exactitude des informations saisies. *</label>
+        <button class="button" type="submit">Valider ma préinscription <span aria-hidden="true">→</span></button>
+        <p class="form-feedback">Démonstration pédagogique : le formulaire vérifie les champs dans le navigateur, mais ne transmet pas d'inscription réelle.</p>
+      </form>
+    </section>
+  </main>
+  <footer><span>© 2026 · Projet pédagogique</span><span>Les Foulées Solidaires · Nanterre</span></footer>
+</body></html>
